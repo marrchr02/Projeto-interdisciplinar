@@ -1,0 +1,110 @@
+:root {
+    --primary-light: #8abdff;
+    --primary: #6d5dfc;
+    --primary-dark: #5b0eeb;
+    --white: #ffffff;
+    --greyLight-1:  #93b7e9;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+  }
+*,
+*:before,
+*::after {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+body {
+    height: 300vh;
+    font-family: sans-serif;
+    background-color:var(--primary);
+    color: white;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+.search {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+#speakbt {
+    display: block;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    background-color: white;
+    color: #33cc99;
+    border: 8px solid #ECF7F3;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    -webkit-transition: border-color 0.2s;
+    transition: border-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+
+}
+#speakbt:hover {
+    border-color: #BEF0DF;
+}
+
+#speakbt:active {
+    background-color: #ECF7F3;
+}
+
+#resultSpeak {
+    position: relative;
+    top: 50px;
+    display: block;
+    width: 200px;
+    margin-left: 540px;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-top: 40px;
+    letter-spacing: 15px;
+    
+}
+ion-icon{
+    color: #5b0eeb;
+    height: 50px;
+    width: 50px;
+}
+.btn{
+    position: relative;
+
+    left: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.btn-esquerda{
+    left: 400px;
+    display: block;
+    border-radius: 1rem;
+    margin: 200px;
+    background-color: white;
+    color: #33cc99;
+    border: 8px solid #ECF7F3;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    -webkit-transition: border-color 0.2s;
+    transition: border-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.btn-esquerda:hover{
+    background-color:var(--greyLight-1);
+}
